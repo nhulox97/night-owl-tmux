@@ -59,7 +59,7 @@ case $SELECTED_THEME in
     declare -A THEME=(
       ["background"]="#011627"
       ["foreground"]="#d6deeb"
-      ["black"]="#1d2c34"
+      ["black"]="#01101c"
       ["blue"]="#82aaff"
       ["cyan"]="#89ddff"
       ["green"]="#C3E88D"
@@ -68,7 +68,7 @@ case $SELECTED_THEME in
       ["white"]="#e6edf3"
       ["yellow"]="#FFCB6B"
 
-      ["bblack"]="#1d2c34"
+      ["bblack"]="#01101c"
       ["bblue"]="#82aaff"
       ["bcyan"]="#89ddff"
       ["bgreen"]="#C3E88D"
