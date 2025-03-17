@@ -4,7 +4,7 @@ SELECTED_THEME="$(tmux show-option -gv @tokyo-night-tmux_theme)"
 #FIXME: at the moment only default colors are updated
 case $SELECTED_THEME in
   # TODO: update colors
-  "storm")
+  "tokyo")
     declare -A THEME=(
       ["background"]="#24283b"
       ["foreground"]="#a9b1d6"
@@ -29,27 +29,26 @@ case $SELECTED_THEME in
     ;;
 
     # TODO: update colors
-  "day")
+  "catpuccin")
     declare -A THEME=(
-      ["background"]="#d5d6db"
-      ["foreground"]="#343b58"
-      ["black"]="#0f0f14"
-      ["blue"]="#34548a"
-      ["cyan"]="#0f4b6e"
-      ["green"]="#33635c"
-      ["magenta"]="#5a4a78"
-      ["red"]="#8c4351"
-      ["white"]="#343b58"
-      ["yellow"]="#8f5e15"
-
-      ["bblack"]="#9699a3"
-      ["bblue"]="#34548a"
-      ["bcyan"]="#0f4b6e"
-      ["bgreen"]="#33635c"
-      ["bmagenta"]="#5a4a78"
-      ["bred"]="#8c4351"
-      ["bwhite"]="#343b58"
-      ["byellow"]="#8f5815"
+      ["background"]="#24273a"
+      ["foreground"]="#cad3f5"
+      ["black"]="#181926"
+      ["blue"]="#8aadf4"
+      ["cyan"]="#91d7e3"
+      ["green"]="#a6da95"
+      ["magenta"]="#c6a0f6"
+      ["red"]="#ed8796"
+      ["white"]="#cad3f5"
+      ["yellow"]="#eed49f"
+      ["bblack"]="#494d64"
+      ["bblue"]="#8aadf4"
+      ["bcyan"]="#91d7e3"
+      ["bgreen"]="#a6da95"
+      ["bmagenta"]="#c6a0f6"
+      ["bred"]="#ed8796"
+      ["bwhite"]="#cad3f5"
+      ["byellow"]="#eed49f"
     )
     ;;
 
