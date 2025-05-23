@@ -52,28 +52,28 @@ case $SELECTED_THEME in
     )
     ;;
 
-    "gruvbox")
-  declare -A THEME=(
-    ["background"]="#282828"
-    ["foreground"]="#ebdbb2"
-    ["black"]="#1d2021"
-    ["blue"]="#458588"
-    ["cyan"]="#689d6a"
-    ["green"]="#98971a"
-    ["magenta"]="#b16286"
-    ["red"]="#cc241d"
-    ["white"]="#ebdbb2"
-    ["yellow"]="#d79921"
-    ["bblack"]="#928374"
-    ["bblue"]="#83a598"
-    ["bcyan"]="#8ec07c"
-    ["bgreen"]="#b8bb26"
-    ["bmagenta"]="#d3869b"
-    ["bred"]="#fb4934"
-    ["bwhite"]="#fbf1c7"
-    ["byellow"]="#fabd2f"
-  )
-  ;;
+  "gruvbox")
+    declare -A THEME=(
+      ["background"]="#1d2021" # darker background for better contrast
+      ["foreground"]="#fbf1c7" # brightest foreground color
+      ["black"]="#282828"      # slightly lighter black
+      ["blue"]="#83a598"       # brighter blue
+      ["cyan"]="#8ec07c"       # brighter cyan
+      ["green"]="#b8bb26"      # brighter green
+      ["magenta"]="#d3869b"    # brighter magenta
+      ["red"]="#fb4934"        # bright red
+      ["white"]="#fbf1c7"      # brightest white
+      ["yellow"]="#fabd2f"     # bright yellow
+      ["bblack"]="#a89984"     # lighter bright black
+      ["bblue"]="#83a598"      # maintained bright blue
+      ["bcyan"]="#8ec07c"      # maintained bright cyan
+      ["bgreen"]="#b8bb26"     # maintained bright green
+      ["bmagenta"]="#d3869b"   # maintained bright magenta
+      ["bred"]="#fb4934"       # maintained bright red
+      ["bwhite"]="#fff9e5"     # even brighter white
+      ["byellow"]="#ffcd43"    # brighter yellow
+    )
+    ;;
 
   *)
     # Default to night theme
