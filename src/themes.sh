@@ -52,6 +52,29 @@ case $SELECTED_THEME in
     )
     ;;
 
+    "gruvbox")
+  declare -A THEME=(
+    ["background"]="#282828"
+    ["foreground"]="#ebdbb2"
+    ["black"]="#1d2021"
+    ["blue"]="#458588"
+    ["cyan"]="#689d6a"
+    ["green"]="#98971a"
+    ["magenta"]="#b16286"
+    ["red"]="#cc241d"
+    ["white"]="#ebdbb2"
+    ["yellow"]="#d79921"
+    ["bblack"]="#928374"
+    ["bblue"]="#83a598"
+    ["bcyan"]="#8ec07c"
+    ["bgreen"]="#b8bb26"
+    ["bmagenta"]="#d3869b"
+    ["bred"]="#fb4934"
+    ["bwhite"]="#fbf1c7"
+    ["byellow"]="#fabd2f"
+  )
+  ;;
+
   *)
     # Default to night theme
     # Night Owl Theme
