@@ -54,24 +54,24 @@ case $SELECTED_THEME in
 
   "gruvbox")
     declare -A THEME=(
-      ["background"]="#1d2021" # darker background for better contrast
-      ["foreground"]="#fbf1c7" # brightest foreground color
-      ["black"]="#282828"      # slightly lighter black
-      ["blue"]="#83a598"       # brighter blue
-      ["cyan"]="#8ec07c"       # brighter cyan
-      ["green"]="#b8bb26"      # brighter green
-      ["magenta"]="#d3869b"    # brighter magenta
-      ["red"]="#fb4934"        # bright red
-      ["white"]="#fbf1c7"      # brightest white
-      ["yellow"]="#fabd2f"     # bright yellow
-      ["bblack"]="#a89984"     # lighter bright black
-      ["bblue"]="#83a598"      # maintained bright blue
-      ["bcyan"]="#8ec07c"      # maintained bright cyan
-      ["bgreen"]="#b8bb26"     # maintained bright green
-      ["bmagenta"]="#d3869b"   # maintained bright magenta
-      ["bred"]="#fb4934"       # maintained bright red
-      ["bwhite"]="#fff9e5"     # even brighter white
-      ["byellow"]="#ffcd43"    # brighter yellow
+      ["background"]="#1d2021" # Very dark background (almost black)
+      ["foreground"]="#fbf1c7" # Very light foreground for main text
+      ["black"]="#282828"      # Slightly lighter black for subtle elements
+      ["blue"]="#458588"       # Darker blue
+      ["cyan"]="#689d6a"       # Adjusted cyan to complement darker blue
+      ["green"]="#b8bb26"      # Bright green
+      ["magenta"]="#d3869b"    # Bright magenta
+      ["red"]="#fb4934"        # Bright red
+      ["white"]="#ebdbb2"      # Light greyish (not pure white)
+      ["yellow"]="#fabd2f"     # Bright yellow
+      ["bblack"]="#504945"     # Medium gray for less emphasis
+      ["bblue"]="#076678"      # Darker bright blue
+      ["bcyan"]="#8ec07c"      # Bright cyan
+      ["bgreen"]="#b8bb26"     # Bright green
+      ["bmagenta"]="#d3869b"   # Bright magenta
+      ["bred"]="#fb4934"       # Bright red
+      ["bwhite"]="#fbf1c7"     # Very light greyish
+      ["byellow"]="#fabd2f"    # Bright yellow
     )
     ;;
 
