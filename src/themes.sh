@@ -77,24 +77,24 @@ case $SELECTED_THEME in
 
   "everforest_light")
     declare -A THEME=(
-      ["background"]="#EAE4CA" # Softer light background (bg1, not the brightest)
-      ["foreground"]="#5C6A72" # Dark foreground for main text
-      ["black"]="#829181"      # Dark grey (grey2)
+      ["background"]="#FDF6E3" # Warmer, softer background (closer to standard light themes)
+      ["foreground"]="#5C6A72" # Main text - dark blue-grey
+      ["black"]="#5C6A72"      # Darkest - same as foreground
       ["blue"]="#3A94C5"       # Blue
       ["cyan"]="#35A77C"       # Aqua/cyan
       ["green"]="#8DA101"      # Green
       ["magenta"]="#DF69BA"    # Purple/magenta
       ["red"]="#F85552"        # Red
-      ["white"]="#A6B0A0"      # Light grey for text (grey0)
+      ["white"]="#D3C6AA"      # Light tan/grey for secondary text
       ["yellow"]="#DFA000"     # Yellow
-      ["bblack"]="#939F91"     # Medium gray (grey1)
-      ["bblue"]="#4FA6D5"      # Brighter blue
-      ["bcyan"]="#45B78C"      # Brighter cyan/aqua
-      ["bgreen"]="#9DB121"     # Brighter green
-      ["bmagenta"]="#EF79CA"   # Brighter magenta/purple
-      ["bred"]="#FF6562"       # Brighter red
-      ["bwhite"]="#D8D3BA"     # Very light grey (bg4)
-      ["byellow"]="#EFAF00"    # Brighter yellow
+      ["bblack"]="#939F91"     # Bright black (grey1)
+      ["bblue"]="#7FBBB3"      # Brighter blue
+      ["bcyan"]="#83C092"      # Brighter cyan/aqua
+      ["bgreen"]="#A7C080"     # Brighter green
+      ["bmagenta"]="#D699B6"   # Brighter magenta/purple
+      ["bred"]="#E67E80"       # Brighter red (softer)
+      ["bwhite"]="#F3EAD3"     # Very light (bg0)
+      ["byellow"]="#DBBC7F"    # Brighter yellow (softer)
     )
     ;;
 
