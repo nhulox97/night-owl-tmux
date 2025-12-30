@@ -75,6 +75,29 @@ case $SELECTED_THEME in
     )
     ;;
 
+  "everforest_light") # or your preferred theme name
+    declare -A THEME=(
+      ["background"]="#F3EAD3" # Light background
+      ["foreground"]="#5C6A72" # Dark foreground for main text
+      ["black"]="#829181"      # Dark grey for subtle elements
+      ["blue"]="#3A94C5"       # Blue
+      ["cyan"]="#35A77C"       # Aqua/cyan
+      ["green"]="#8DA101"      # Green
+      ["magenta"]="#DF69BA"    # Purple/magenta
+      ["red"]="#F85552"        # Red
+      ["white"]="#EAE4CA"      # Light greyish background variant
+      ["yellow"]="#DFA000"     # Yellow
+      ["bblack"]="#939F91"     # Medium gray (brighter than black)
+      ["bblue"]="#4FA6D5"      # Brighter blue
+      ["bcyan"]="#45B78C"      # Brighter cyan/aqua
+      ["bgreen"]="#9DB121"     # Brighter green
+      ["bmagenta"]="#EF79CA"   # Brighter magenta/purple
+      ["bred"]="#FF6562"       # Brighter red
+      ["bwhite"]="#FFFBF0"     # Very light (almost white)
+      ["byellow"]="#EFAF00"    # Brighter yellow
+    )
+    ;;
+
   *)
     # Default to night theme
     # Night Owl Theme
@@ -98,29 +121,6 @@ case $SELECTED_THEME in
       ["bred"]="#EF5350"
       ["bwhite"]="#e6edf3"
       ["byellow"]="#FFCB6B"
-    )
-    ;;
-
-  "everforest_light") # or your preferred theme name
-    declare -A THEME=(
-      ["background"]="#F3EAD3" # Light background
-      ["foreground"]="#5C6A72" # Dark foreground for main text
-      ["black"]="#829181"      # Dark grey for subtle elements
-      ["blue"]="#3A94C5"       # Blue
-      ["cyan"]="#35A77C"       # Aqua/cyan
-      ["green"]="#8DA101"      # Green
-      ["magenta"]="#DF69BA"    # Purple/magenta
-      ["red"]="#F85552"        # Red
-      ["white"]="#EAE4CA"      # Light greyish background variant
-      ["yellow"]="#DFA000"     # Yellow
-      ["bblack"]="#939F91"     # Medium gray (brighter than black)
-      ["bblue"]="#4FA6D5"      # Brighter blue
-      ["bcyan"]="#45B78C"      # Brighter cyan/aqua
-      ["bgreen"]="#9DB121"     # Brighter green
-      ["bmagenta"]="#EF79CA"   # Brighter magenta/purple
-      ["bred"]="#FF6562"       # Brighter red
-      ["bwhite"]="#FFFBF0"     # Very light (almost white)
-      ["byellow"]="#EFAF00"    # Brighter yellow
     )
     ;;
 
