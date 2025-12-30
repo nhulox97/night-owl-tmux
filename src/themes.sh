@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 SELECTED_THEME="$(tmux show-option -gv @tokyo-night-tmux_theme)"
-#FIXME: at the moment only default colors are updated
 case $SELECTED_THEME in
   # TODO: update colors
   "tokyo")
@@ -80,9 +79,9 @@ case $SELECTED_THEME in
       ["background"]="#EAE4CA" # Warmer, softer background
       ["foreground"]="#5C6A72" # Main text - dark blue-grey
       ["black"]="#5C6A72"      # Darkest - same as foreground
-      ["blue"]="#49b4de"       # Brighter, more vibrant blue
+      ["blue"]="#3793b8"       # Brighter, more vibrant blue
       ["cyan"]="#3FBC88"       # Brighter cyan/aqua
-      ["green"]="#A7C957"      # Brighter, more vibrant green
+      ["green"]="#92b53f"      # Brighter, more vibrant green
       ["magenta"]="#E87AB8"    # Brighter magenta
       ["red"]="#F85552"        # Bright red (from original palette)
       ["white"]="#D3C6AA"      # Light tan/grey for secondary text
