@@ -75,25 +75,25 @@ case $SELECTED_THEME in
     )
     ;;
 
-  "everforest_light") # or your preferred theme name
+  "everforest_light")
     declare -A THEME=(
-      ["background"]="#F3EAD3" # Light background
+      ["background"]="#EAE4CA" # Softer light background (bg1, not the brightest)
       ["foreground"]="#5C6A72" # Dark foreground for main text
-      ["black"]="#829181"      # Dark grey for subtle elements
+      ["black"]="#829181"      # Dark grey (grey2)
       ["blue"]="#3A94C5"       # Blue
       ["cyan"]="#35A77C"       # Aqua/cyan
       ["green"]="#8DA101"      # Green
       ["magenta"]="#DF69BA"    # Purple/magenta
       ["red"]="#F85552"        # Red
-      ["white"]="#EAE4CA"      # Light greyish background variant
+      ["white"]="#A6B0A0"      # Light grey for text (grey0)
       ["yellow"]="#DFA000"     # Yellow
-      ["bblack"]="#939F91"     # Medium gray (brighter than black)
+      ["bblack"]="#939F91"     # Medium gray (grey1)
       ["bblue"]="#4FA6D5"      # Brighter blue
       ["bcyan"]="#45B78C"      # Brighter cyan/aqua
       ["bgreen"]="#9DB121"     # Brighter green
       ["bmagenta"]="#EF79CA"   # Brighter magenta/purple
       ["bred"]="#FF6562"       # Brighter red
-      ["bwhite"]="#FFFBF0"     # Very light (almost white)
+      ["bwhite"]="#D8D3BA"     # Very light grey (bg4)
       ["byellow"]="#EFAF00"    # Brighter yellow
     )
     ;;
