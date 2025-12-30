@@ -77,24 +77,24 @@ case $SELECTED_THEME in
 
   "everforest_light")
     declare -A THEME=(
-      ["background"]="#EAE4CA" # Softer light background (bg1, not the brightest)
+      ["background"]="#EAE4CA" # Warmer, softer background
       ["foreground"]="#5C6A72" # Main text - dark blue-grey
       ["black"]="#5C6A72"      # Darkest - same as foreground
-      ["blue"]="#2A7BA0"       # Darker, more saturated blue for better contrast
-      ["cyan"]="#2D9574"       # Darker cyan/aqua for better visibility
-      ["green"]="#6F8C00"      # Darker green for better icon contrast
-      ["magenta"]="#C5549B"    # Darker magenta for visibility
-      ["red"]="#E85450"        # Slightly darker red
+      ["blue"]="#4FB3D9"       # Brighter, more vibrant blue
+      ["cyan"]="#3FBC88"       # Brighter cyan/aqua
+      ["green"]="#A7C957"      # Brighter, more vibrant green
+      ["magenta"]="#E87AB8"    # Brighter magenta
+      ["red"]="#F85552"        # Bright red (from original palette)
       ["white"]="#D3C6AA"      # Light tan/grey for secondary text
-      ["yellow"]="#C89F00"     # Darker yellow for better contrast
+      ["yellow"]="#F0B429"     # Brighter yellow
       ["bblack"]="#939F91"     # Bright black (grey1)
-      ["bblue"]="#E1E7DD"      # Very light blue for backgrounds (bg_blue from palette)
+      ["bblue"]="#E1E7DD"      # Very light blue for backgrounds (bg_blue)
       ["bcyan"]="#E5F4ED"      # Very light cyan for backgrounds
-      ["bgreen"]="#E5E6C5"     # Very light green for backgrounds (bg_green from palette)
-      ["bmagenta"]="#F1DDD4"   # Very light magenta for backgrounds (bg_purple from palette)
-      ["bred"]="#FADBD0"       # Very light red for backgrounds (bg_red from palette)
+      ["bgreen"]="#E5E6C5"     # Very light green for backgrounds (bg_green)
+      ["bmagenta"]="#F1DDD4"   # Very light magenta for backgrounds (bg_purple)
+      ["bred"]="#FADBD0"       # Very light red for backgrounds (bg_red)
       ["bwhite"]="#F3EAD3"     # Very light (bg0)
-      ["byellow"]="#F1E4C5"    # Very light yellow for backgrounds (bg_yellow from palette)
+      ["byellow"]="#F1E4C5"    # Very light yellow for backgrounds (bg_yellow)
     )
     ;;
 
