@@ -80,14 +80,14 @@ case $SELECTED_THEME in
       ["background"]="#EAE4CA" # Warmer, softer background
       ["foreground"]="#5C6A72" # Main text - dark blue-grey
       ["black"]="#5C6A72"      # Darkest - same as foreground
-      ["blue"]="#4FB3D9"       # Brighter, more vibrant blue
+      ["blue"]="#49b4de"       # Brighter, more vibrant blue
       ["cyan"]="#3FBC88"       # Brighter cyan/aqua
       ["green"]="#A7C957"      # Brighter, more vibrant green
       ["magenta"]="#E87AB8"    # Brighter magenta
       ["red"]="#F85552"        # Bright red (from original palette)
       ["white"]="#D3C6AA"      # Light tan/grey for secondary text
       ["yellow"]="#F0B429"     # Brighter yellow
-      ["bblack"]="#939F91"     # Bright black (grey1)
+      ["bblack"]="#b6c2b4"     # Bright black (grey1)
       ["bblue"]="#E1E7DD"      # Very light blue for backgrounds (bg_blue)
       ["bcyan"]="#E5F4ED"      # Very light cyan for backgrounds
       ["bgreen"]="#E5E6C5"     # Very light green for backgrounds (bg_green)
