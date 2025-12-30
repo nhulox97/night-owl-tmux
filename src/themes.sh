@@ -77,24 +77,24 @@ case $SELECTED_THEME in
 
   "everforest_light")
     declare -A THEME=(
-      ["background"]="#FDF6E3" # Warmer, softer background (closer to standard light themes)
+      ["background"]="#EAE4CA" # Softer light background (bg1, not the brightest)
       ["foreground"]="#5C6A72" # Main text - dark blue-grey
       ["black"]="#5C6A72"      # Darkest - same as foreground
-      ["blue"]="#3A94C5"       # Blue
-      ["cyan"]="#35A77C"       # Aqua/cyan
-      ["green"]="#8DA101"      # Green
-      ["magenta"]="#DF69BA"    # Purple/magenta
-      ["red"]="#F85552"        # Red
+      ["blue"]="#2A7BA0"       # Darker, more saturated blue for better contrast
+      ["cyan"]="#2D9574"       # Darker cyan/aqua for better visibility
+      ["green"]="#6F8C00"      # Darker green for better icon contrast
+      ["magenta"]="#C5549B"    # Darker magenta for visibility
+      ["red"]="#E85450"        # Slightly darker red
       ["white"]="#D3C6AA"      # Light tan/grey for secondary text
-      ["yellow"]="#DFA000"     # Yellow
+      ["yellow"]="#C89F00"     # Darker yellow for better contrast
       ["bblack"]="#939F91"     # Bright black (grey1)
-      ["bblue"]="#7FBBB3"      # Brighter blue
-      ["bcyan"]="#83C092"      # Brighter cyan/aqua
-      ["bgreen"]="#A7C080"     # Brighter green
-      ["bmagenta"]="#D699B6"   # Brighter magenta/purple
-      ["bred"]="#E67E80"       # Brighter red (softer)
+      ["bblue"]="#E1E7DD"      # Very light blue for backgrounds (bg_blue from palette)
+      ["bcyan"]="#E5F4ED"      # Very light cyan for backgrounds
+      ["bgreen"]="#E5E6C5"     # Very light green for backgrounds (bg_green from palette)
+      ["bmagenta"]="#F1DDD4"   # Very light magenta for backgrounds (bg_purple from palette)
+      ["bred"]="#FADBD0"       # Very light red for backgrounds (bg_red from palette)
       ["bwhite"]="#F3EAD3"     # Very light (bg0)
-      ["byellow"]="#DBBC7F"    # Brighter yellow (softer)
+      ["byellow"]="#F1E4C5"    # Very light yellow for backgrounds (bg_yellow from palette)
     )
     ;;
 
