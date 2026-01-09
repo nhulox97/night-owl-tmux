@@ -97,6 +97,29 @@ case $SELECTED_THEME in
     )
     ;;
 
+  "tokyodark")
+    declare -A THEME=(
+      ["background"]="#11121D" # bg0 - main background
+      ["foreground"]="#A0A8CD" # fg - main text
+      ["black"]="#06080A"      # black - darkest
+      ["blue"]="#7199EE"       # blue
+      ["cyan"]="#38A89D"       # cyan
+      ["green"]="#95C561"      # green
+      ["magenta"]="#A485DD"    # purple
+      ["red"]="#EE6D85"        # red
+      ["white"]="#4A5057"      # grey/bg4 - secondary text
+      ["yellow"]="#D7A65F"     # yellow
+      ["bblack"]="#353945"     # bg3 - bright black (grey)
+      ["bblue"]="#9FBBF3"      # bg_blue - light blue for backgrounds
+      ["bcyan"]="#5FCBBA"      # brighter cyan variant
+      ["bgreen"]="#98C379"     # bg_green - light green for backgrounds
+      ["bmagenta"]="#C4A7E7"   # brighter purple variant
+      ["bred"]="#FE6D85"       # bg_red - light red for backgrounds
+      ["bwhite"]="#A0A8CD"     # fg - lightest (same as foreground)
+      ["byellow"]="#E5C07B"    # brighter yellow variant
+    )
+    ;;
+
   *)
     # Default to night theme
     # Night Owl Theme
@@ -111,7 +134,6 @@ case $SELECTED_THEME in
       ["red"]="#EF5350"
       ["white"]="#e6edf3"
       ["yellow"]="#FFCB6B"
-
       ["bblack"]="#01101c"
       ["bblue"]="#82aaff"
       ["bcyan"]="#89ddff"
